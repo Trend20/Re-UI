@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reward</title>
+
+     <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap"
+     rel="stylesheet"> 
+ 
+     <!-- Fontawesome CDN -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"  
+     crossorigin="anonymous" />
+ 
+     <!-- CUSTOM CSS -->
+     <link rel="stylesheet" href="accounts.css">
+</head>
+<body>
+   <div class="banner">
+    <h3>Reward.co</h3>
+    <p>Welcome and create a free reward account.</p>
+   </div>
+    <div class="container">
+        <div class="social-logins">
+            <button id="facebook" class="icons">
+                <i class="fab fa-facebook"></i>
+                <p>Login with Facebook</p>
+            </button>
+            <button id="twitter" class="icons">
+                <i class="fab fa-twitter"></i>
+                <p>Login with Twitter</p>
+            </button>
+            <button id="google-plus" class="icons">
+                <i class="fab fa-google-plus"></i>
+                <p>Login with Google+</p>
+            </button>
+        </div>
+        <p id="devider">OR</p>
+        <div class="accounts">
+            <form action="">
+                <h3 id="head">Sign up Manually</h3>
+
+                <input type="text" class="input" placeholder="email" required>
+                <br>
+                <input type="password" class="input" placeholder="Password" required>
+                <br>
+
+                <div class="call-to-action">
+                  <div id="check">
+                    <input type="checkbox" name="Remember me" id="remember" Remember me>
+                    <p>Remember me</p>
+                  </div>
+                    <button id="login">Login</button>
+                </div>
+
+                <div class="external">
+                    <a href="register.ejs" id="register">Register now</a>
+                    <span></span>
+                    <a href="reset" id="reset">Forgot Password?</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

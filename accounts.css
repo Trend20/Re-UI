@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(./img/lake_Umiam.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.banner h3{
+    font-size: 2rem;
+}
+
+.banner p{
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px  rgb(204, 200, 200);
+}
+
+.social-logins{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 30%;
+    margin-left: 30px;
+}
+
+.icons{
+    display: flex;
+    margin-top:30px;
+    padding: 20px;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+#facebook{
+    background: #3477ce;
+}
+
+#twitter{
+    background: #34aace;
+}
+
+#google-plus{
+    background: #ce4634;
+}
+
+#devider{
+    margin: auto;
+}
+
+.accounts{
+    display: flex;
+    width: 40%;
+    margin-top: 30px;
+}
+
+.accounts form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: auto;
+}
+
+#head{
+    color: #4e4e4e;
+    margin-bottom: 20px;
+}
+
+.input{
+    display: flex;
+    margin-top: 3px;
+    width: 80%;
+    padding: 20px;
+    height: auto;
+    outline: none;
+    border: none;
+    background: #d4caca;
+    color: #000;
+    border-radius: 10px;
+}
+
+.call-to-action{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    height: auto;
+    margin-top: 30px;
+}
+
+#check{
+    display: flex;
+    align-items: center;
+}
+
+#check p{
+    margin-left: 3px;
+    font-size: .8rem; 
+}
+
+#check input{
+    width: 20px;
+}
+
+#login{
+    padding: 20px;
+    height: auto;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    background: #d45b4b;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.external{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#register{
+    color: #ce4634;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.external span{
+    border: 1px solid #868585;
+}
+
+
+#reset{
+    text-decoration: none;
+    color: #868585;
+}
+
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: space-between;
+        height: auto;
+        padding: 20px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px  rgb(204, 200, 200);
+    }
+    .social-logins{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-left: 30px;
+    }
+    
+    .icons{
+        display: flex;
+        margin-top:30px;
+        padding: 20px;
+        color: #fff;
+        font-size: 1.2rem;
+        width: 80%;
+        align-items: center;
+        justify-content: space-around;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+    
+    }
+    
+    #facebook{
+        background: #3477ce;
+    }
+    
+    #twitter{
+        background: #34aace;
+    }
+    
+    #google-plus{
+        background: #ce4634;
+    }
+    
+    #devider{
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .accounts{
+        display: flex;
+        width: 100%;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .accounts form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    #head{
+        color: #4e4e4e;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .input{
+        display: flex;
+        margin-top: 3px;
+        width: 80%;
+        padding: 20px;
+        height: auto;
+        outline: none;
+        border: none;
+        background: #d4caca;
+        color: #000;
+        border-radius: 10px;
+    }
+    
+    .call-to-action{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        height: auto;
+        margin-top: 30px;
+    }
+    
+    #check{
+        display: flex;
+        align-items: center;
+    }
+    
+    #check p{
+        margin-left: 3px;
+        font-size: .8rem; 
+    }
+    
+    #check input{
+        width: 20px;
+    }
+    
+    #login{
+        padding: 20px;
+        height: auto;
+        width: 40%;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        background: #d45b4b;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .external{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    #register{
+        color: #ce4634;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+    .external span{
+        border: 1px solid #868585;
+    }
+    
+    
+    #reset{
+        text-decoration: none;
+        color: #868585;
+    }
+    
+}
+
+
+@media (min-width:481px) and (max-width:768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: space-between;
+        height: auto;
+        padding: 20px;
+        margin: auto;
+        margin-top: 100px;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px 10px  rgb(204, 200, 200);
+    }
+    .social-logins{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-left: 30px;
+    }
+    
+    .icons{
+        display: flex;
+        margin-top:30px;
+        padding: 20px;
+        color: #fff;
+        font-size: 1.2rem;
+        width: 80%;
+        align-items: center;
+        justify-content: space-around;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+    
+    }
+    
+    #facebook{
+        background: #3477ce;
+    }
+    
+    #twitter{
+        background: #34aace;
+    }
+    
+    #google-plus{
+        background: #ce4634;
+    }
+    
+    #devider{
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .accounts{
+        display: flex;
+        width: 100%;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .accounts form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    #head{
+        color: #4e4e4e;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .input{
+        display: flex;
+        margin-top: 3px;
+        width: 80%;
+        padding: 20px;
+        height: auto;
+        outline: none;
+        border: none;
+        background: #d4caca;
+        color: #000;
+        border-radius: 10px;
+    }
+    
+    .call-to-action{
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        height: auto;
+        margin-top: 30px;
+    }
+    
+    #check{
+        display: flex;
+        align-items: center;
+    }
+    
+    #check p{
+        margin-left: 3px;
+        font-size: .8rem; 
+    }
+    
+    #check input{
+        width: 20px;
+    }
+    
+    #login{
+        padding: 20px;
+        height: auto;
+        width: 40%;
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        color: #fff;
+        background: #d45b4b;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    
+    .external{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-top: 30px;
+    }
+    
+    #register{
+        color: #ce4634;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+    .external span{
+        border: 1px solid #868585;
+    }
+    
+    
+    #reset{
+        text-decoration: none;
+        color: #868585;
+    }
+    
+}
