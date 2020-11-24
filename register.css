@@ -64,6 +64,7 @@ form{
     border-radius: 10px;
     background: #fff;
     margin-bottom: 50px;
+    padding-top: 20px;
     box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
   0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -77,11 +78,13 @@ form{
 form input{
     padding: 15px;
     font-size: 1rem;
+    margin: auto;
     margin-top: 5px;
     border: none;
     outline: none;
     border-radius: 10px;
     background: rgb(235, 226, 226);
+    width: 80%;
 }
 
 form button{
