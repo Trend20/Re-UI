@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(./img/banner1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+    flex-direction: column;
+}
+
+.profile{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 100px;
+}
+
+#profile{
+    font-size: 10rem;
+    cursor: pointer;
+}
+
+.profile >p{
+    margin-right: 20px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    justify-content: center;
+    margin: auto;
+}
+
+.form-container h3{
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 50px;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+form input{
+    padding: 15px;
+    font-size: 1rem;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: rgb(235, 226, 226);
+}
+
+form button{
+    width: 30%;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    background: #be4545;
+    border-radius: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+}
