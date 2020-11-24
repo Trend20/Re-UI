@@ -23,17 +23,20 @@ body{
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    margin-right: 100px;
+    align-items: center;
+    margin-left: 520px;
 }
 
 #profile{
     font-size: 10rem;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 .profile >p{
-    margin-right: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin: 20px;
 }
 
 .form-container{
