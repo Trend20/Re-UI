@@ -34,6 +34,23 @@ body{
 .details{
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 50%;
     align-items: center;
+}
+
+.details p input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 80%;
+    font-weight: 500;
+}
+
+#save{
+    margin-top: 20px;
+    width: 10%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }

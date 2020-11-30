@@ -1,12 +1,12 @@
 // select the DOM nodes
 
-const loginButton = document.getElementById('login');
-const registerButton = document.getElementById('register');
+const registerBtn = document.getElementById('register');
 
-loginButton.addEventListener('click', accountsPage);
-registerButton.addEventListener('click', accountsPage);
+registerBtn.addEventListener('click', showRegisterPage);
 
-function accountsPage(){
+// direct to the register page
+function showRegisterPage(){
     if(true)
-    document.location = 'accounts.html';
+    document.location = 'register.html';
 }
+
