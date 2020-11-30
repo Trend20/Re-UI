@@ -1,6 +1,6 @@
 // select the DOM nodes
 
-const registerBtn = document.getElementById('register');
+const registerBtn = document.getElementById('btn');
 
 registerBtn.addEventListener('click', showRegisterPage);
 
