@@ -1,7 +1,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
-    background: #40ade0;
+    background: url(../img/banner1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: 1rem;
 }
 
@@ -44,6 +46,9 @@ body{
     padding: 10px;
     width: 80%;
     font-weight: 500;
+    background: none;
+    color: #fff;
+    font-size: 1rem;
 }
 
 #save{
