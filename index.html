@@ -72,9 +72,10 @@
           <p>Get 50 reward points by subscribing</p>
           <span></span>
 
-          <form action="reward@faya.website">
+          <form>
+            <!-- method="POST" action="mailto:reward@faya.website" -->
              <div class="input">
-                <input type="email" placeholder="Subscribe with your email" required>
+                <input type="email" id="email" placeholder="Subscribe with your email" required>
                 <select name="countryCode" id="countries">
                     <option data-countryCode="GB" value="44" Selected>UK (+44)</option>
                     <option data-countryCode="US" value="1">USA (+1)</option>
@@ -296,7 +297,8 @@
                     </optgroup>
                 </select>
              </div>
-              <button type="submit" id="button">Submit</button>
+              <button type="submit" id="button">
+                <a href="mailto:reward@faya.website"></a>Submit</button>
           </form>
       </div>
       <!-- footer -->
@@ -321,5 +323,6 @@
     </footer>
     </div>
    </div>
+   <script src="./main.js"></script>
 </body>
 </html>
