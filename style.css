@@ -25,3 +25,121 @@
   }
   
   
+  /* styling the page contents */
+  .contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  /* heading styles */
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .heading h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 2rem;
+    color: #eb4646;
+  }
+  /* end of heading styles */
+
+
+  .sub-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .image{
+    width: 40%;
+    justify-content: center;
+    display: flex
+  }
+
+  .image img{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 7%;
+    top: 35%;
+  }
+
+  .text h3{
+    font-size: 1.7rem;
+    width: 100%;
+    letter-spacing: 1px;
+    margin-top: 40px;
+  }
+
+  .text p{
+    margin-top: 50px;
+    width: 80%;
+    font-size: 1.5rem;
+    text-indent: -20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-transform: capitalize;
+  }
+
+  #form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #form span{
+    display: flex;
+    border: 1px solid #071838;
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .input{
+    display: flex;
+    margin-top: 20px;
+    width: 70%;
+  }
+
+  #email{
+    width: 80%;
+    padding: 8px;
+    font-size: 1rem;
+    outline: none;
+  }
+
+  #countries{
+    width: 20%;
+    outline: none;
+  }
+
+  #form button{
+    width: 30%;
+    margin-top: 30px;
+    outline: none;
+    background: #eb4646;
+    color: #fff;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
