@@ -190,3 +190,92 @@
     margin-top: 20px;
     font-size: 1.5em;
   }
+
+
+  /* rewards styles */
+
+  .rewards{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 100px;
+  }
+
+  .earn{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .earn h3{
+    color: #F6F620;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+
+  .earn span{
+    width: 80%;
+    border: 1px solid #071838;
+    margin-top: 10px;
+  }
+
+  .service{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  #sub{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 25px;
+    color: #fff;
+    background: linear-gradient(to bottom, #ee8686, #d14d4d);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  .service ul{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 80%;
+  }
+
+
+  .service ul li{
+    display: flex;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-left: 22px;
+    padding-top: 10px;
+    align-items: center;
+
+  }
+  
+
+  .service ul li i{
+    display: flex;
+    font-size: 1.5rem;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding: 3px;
+    height: 25px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
