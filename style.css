@@ -258,9 +258,10 @@
     display: flex;
     font-size: 1.2rem;
     width: 100%;
-    margin-left: 22px;
+    margin-left: 18px;
     padding-top: 10px;
     align-items: center;
+    font-weight: 700;
 
   }
   
@@ -277,5 +278,65 @@
     justify-content: center;
 
   }
+
+
+  .redeem{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+  }
+
+  .redeem h3{
+    color: #F6F620;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .redeem span{
+    width: 80%;
+    border: 1px solid #071838;
+    margin-top: 10px;
+  }
+
+  .access{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  .row{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .row p{
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .row a{
+    background: linear-gradient(to bottom, #ebe485, #c0b12b);
+    padding: 3px;
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    box-shadow: 3px 3px 3px 3px #000;
+  }
+
 
 
