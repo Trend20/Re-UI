@@ -32,7 +32,7 @@
     align-items: center;
     width: 100%;
     flex-direction: column;
-    margin-top: 50px;
+    background: #4388CC;
   }
 
   /* heading styles */
@@ -49,7 +49,8 @@
     align-items: center;
     width: 100%;
     font-size: 2rem;
-    color: #eb4646;
+    color: #FF0000;
+    margin-top: 50px;
   }
   /* end of heading styles */
 
@@ -89,6 +90,7 @@
     width: 100%;
     letter-spacing: 1px;
     margin-top: 40px;
+    color: #F6F620;
   }
 
   .text p{
@@ -159,4 +161,32 @@
     text-decoration: none;
     font-weight: 700;
     border-radius: 10px;
+  }
+
+  .banner{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    background: rgb(2, 20, 20);
+    align-items: center;
+    padding-top: 30px;
+    color: #fff;
+    padding-bottom: 30px;
+  }
+
+  .banner h3{
+    font-size: 3rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 30px;
+  }
+
+  .banner p{
+    margin-top: 20px;
+    font-size: 1.5em;
   }
