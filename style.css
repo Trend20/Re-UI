@@ -23,6 +23,21 @@
   header{
     padding: 20px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #accounts{
+    background: #4388CC;
+    padding: 10px;
+    width: 10%;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
   }
   
   
@@ -50,7 +65,7 @@
     align-items: center;
     width: 90%;
     font-size: 3rem;
-    color: #FF0000;
+    color: #fff;
     margin: auto;
     margin-top: 50px;
     font-weight: 900;
@@ -93,15 +108,16 @@
     font-size: 1.7rem;
     width: 100%;
     letter-spacing: 1px;
+    margin-left: 150px;
     margin-top: 40px;
     color: #F6F620;
   }
 
   .desc p{
     margin-top: 50px;
-    width: 80%;
+    width: 90%;
     font-size: 1.5rem;
-    text-indent: -45px;
+    margin-left: 75px;
     letter-spacing: 1px;
     line-height: 1.5;
     text-transform: capitalize;
@@ -115,6 +131,7 @@
     list-style: none;
     font-size: 1.2rem;
     align-items: center;
+    margin-left: 90px;
   }
 
   .desc li i{
@@ -131,7 +148,12 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: -35px;
+    margin-left: 85px;
+  }
+
+  #form h3{
+    margin-left: -10px;
+    width: 100%;
   }
 
   #form p{
@@ -176,19 +198,6 @@
     color: #fff;
     padding: 6px;
     cursor: pointer;
-    border-radius: 10px;
-  }
-
-  #accounts{
-    margin-top: 30px;
-    background: linear-gradient(to top, #108b39, #91e0a8ee);
-    padding: 8px;
-    width: 40%;
-    justify-content: center;
-    display: flex;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
     border-radius: 10px;
   }
 
