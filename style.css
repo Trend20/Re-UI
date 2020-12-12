@@ -166,7 +166,21 @@
     width: 90%;
     margin-top: 10px;
   }
-
+  
+  #form a{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #2edd8b, #38a547);
+    width: 20%;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+  }
   .input{
     display: flex;
     margin-top: 20px;
